@@ -1,0 +1,56 @@
+# Ignore build directories
+build/
+*.pro.user
+*.pro.user.*
+*.qmake.cache
+*.qmake.stash
+*.pri.user
+*.user
+*.user.*
+
+# Ignore generated object files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exp
+*.pch
+*.pdb
+*.idb
+
+# Ignore Qt creator specific files
+*.pro.user
+*.pro.user.*
+*.user
+*.user.*
+
+# Ignore the CMake generated files (if using CMake)
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+*.cmake
+*.moc
+*.qrc
+
+# Ignore IDE specific files (e.g., Qt Creator, Visual Studio, etc.)
+.idea/
+.vscode/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Linux swap files
+*.swp
+
+# Ignore Windows thumbnail cache
+Thumbs.db
+
+# Ignore backup files (e.g., Emacs, Vim)
+*~
+*.bak
+*.swp
+
